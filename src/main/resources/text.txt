@@ -1,0 +1,24 @@
+id; //ИД пользователя
+name; //Имя
+pass; //Пароль
+nickName; //Псевдоним
+jndiName; //Имя JNDI
+description; //Описание
+category; //категория
+urlStr; //URL
+timeOutConnection; //Тайм-аут соединения
+maxNumberConn; //Максимальное число соединений
+minNumberConn; //Минимальное число соединений
+
+{
+    "name":"Имя", //Имя
+    "password":"Пароль", //Пароль
+    "nickName":"Псевдоним", //Псевдоним
+    "jndiName":"Имя JNDI", //Имя JNDI
+    "description":"Описание", //Описание
+    "category":"категория", //категория
+    "url":"URL", //URL
+    "timeOutConnection":12343234343, //Тайм-аут соединения
+    "maxNumberConn":100, //Максимальное число соединений
+    "minNumberConn":10 //Минимальное число соединен
+}
