@@ -28,7 +28,7 @@ public class UserProfileService {
     public UserProfile updateUserProfile (UserProfile userProfile, Long id){
         Optional<UserProfile> temp = userProfileRepository.findById(id);
         if(!temp.isPresent()){
-            throw new EntityNotFoundException("id-" + id);
+            throw new EntityNotFoundException("Entity with id-" + id+" not found!");
         }
         userProfile.setId(id);
         return userProfileRepository.saveAndFlush(userProfile);
