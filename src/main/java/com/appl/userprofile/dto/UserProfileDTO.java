@@ -20,19 +20,26 @@ import javax.validation.constraints.NotEmpty;
 public class UserProfileDTO {
 
     private long id; //ИД пользователя
-    @NotEmpty(message = "Поле не должно быть пустым!")
+    
+	@NotEmpty(message = "Поле не должно быть пустым!")
     private String name; //Имя
-    @NotEmpty(message = "Поле не должно быть пустым!")
+    
+	@NotEmpty(message = "Поле не должно быть пустым!")
     private String pass; //Пароль
-    @NotEmpty(message = "Поле не должно быть пустым!")
+    
+	@NotEmpty(message = "Поле не должно быть пустым!")
     private String nickName; //Псевдоним
-    @NotEmpty(message = "Поле не должно быть пустым!")
+    
+	@NotEmpty(message = "Поле не должно быть пустым!")
     private String jndiName; //Имя JNDI
-    @NotEmpty(message = "Поле не должно быть пустым!")
+    
+	@NotEmpty(message = "Поле не должно быть пустым!")
     private String description; //Описание
-    @NotEmpty(message = "Поле не должно быть пустым!")
+    
+	@NotEmpty(message = "Поле не должно быть пустым!")
     private String category; //категория
-    @NotEmpty(message = "Поле не должно быть пустым!")
+    
+	@NotEmpty(message = "Поле не должно быть пустым!")
     private String urlStr; //URL
 
     @Max(1000)
